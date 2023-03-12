@@ -1,0 +1,64 @@
+#table-1{
+    border: 1px solid gray;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+#tr-ID{
+    background-color: black;
+}
+.Tieu-de{
+    color: white;
+}
+
+.td-Name{
+    color: blue;
+}
+.tr-ID-1{
+    background-color: bisque;
+}
+
+.Button-1{
+    background-color: blue;
+    color: white;
+    border-radius: 10%;
+}
+#Button-2{
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+
+}
+#Button-3{
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+
+}
+#Button-4{
+    background-color: gray;
+    color: white;
+    border-radius: 15px;
+}
+
+#table-2{
+    border: 2px solid;
+    width: 50%;
+    border-radius: 15px;
+
+}
+
+.tr-2{
+    box-sizing: border-box;
+
+}
+
+form{
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+#div-1{
+    display: flex;
+    
+}

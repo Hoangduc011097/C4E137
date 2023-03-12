@@ -1,0 +1,157 @@
+.menu{
+    display: flex;
+    background-color: yellow;
+    border: 1px solid orange;
+    margin: 10px 0px 0px 0px;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.start{
+    display: flex;
+    
+}
+
+.logo{
+    
+    margin: 10px 10px 10px 10px;
+    padding: 15px;
+    background-color: green;
+    border: 1px solid black;
+
+}
+
+.brand{
+    font-size: 20px;
+    padding: 15px;
+    margin: 5px auto;
+    font-weight: bold;
+
+}
+
+.end{
+    display: flex;
+
+}
+.hinh-tron{
+    display: block;
+    border: 1px solid blue;
+    border-radius: 50%;
+    background-color: lightskyblue;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+
+}
+
+.home{
+    margin: 10px 25px 5px 15px;
+    padding: 15px auto;
+}
+
+
+.menu-2{
+
+    display: flex;
+    background-color: yellow;
+    border: 1px solid orange;
+    margin: 10px 0px 0px 0px;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+.hinh-tron-2{
+    margin: 5px 5px 5px 15px;
+
+     display: block;
+    border: 1px solid blue;
+    border-radius: 50%;
+    background-color: lightskyblue;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+
+}
+
+.between{
+    display: flex;
+    
+}
+
+.home2{
+    
+    margin: 10px 5px 5px 5px;
+    text-align: center;
+}
+.home-con{
+
+    padding: 5px;
+}
+
+.friend{
+
+   
+    margin: 10px 5px 5px 5px;
+    text-align: center;
+
+}
+
+.friend-con{
+    padding: 5px;
+}
+
+.market{
+    
+    margin: 10px 5px 5px 5px;
+    text-align: center;
+
+
+}
+.market-con{
+    padding: 5px;
+}
+
+.end-2{
+    display: flex;
+}
+
+.chuong{
+    margin: 10px 15px 5px 5px;
+    text-align: center;
+    padding-top: 5px;
+}
+.chuong1{
+    position: relative;
+    margin: 10px 15px 5px 5px;
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+.thong-bao{
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 150px;
+    height: 140px;
+    
+   
+    visibility: hidden;
+    
+}
+.thong-bao::after{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    content: "";
+}
+.chuong1:hover .thong-bao{
+    visibility: visible;
+}
+

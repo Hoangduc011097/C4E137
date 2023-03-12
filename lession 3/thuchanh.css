@@ -1,0 +1,22 @@
+.div-chung{
+    margin: 10px 500px 5px 500px ;
+
+    background-color: lightgoldenrodyellow;
+    border: 1px solid orange;
+
+}
+
+.div-noi-dung{
+    padding: 5px;
+    margin: 10px 500px 5px 500px;
+    background-color: lightpink;
+    border: 1px solid red;
+
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    margin:10px 500px 5px 500px ;
+}

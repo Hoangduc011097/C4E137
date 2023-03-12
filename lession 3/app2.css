@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+}
+/* margin mặc địng của body là 8px */
+
+.box{
+    width: auto;
+    height: auto;
+    border: 10px solid green;
+    background-color: yellow;
+    margin: 10px 0px 10px 0px;
+   
+
+    /* padding 4 giá trị */
+    /* padding: 1px 1px 1px 1px */
+    /* giống như margin 4 giá trị */
+    padding: 20px;
+z-index: 0;
+/* z index là độ ưu tiên cái nào đè lên cái nào */
+
+
+}
+#box1{
+
+    width: auto;
+    height: 1000px;
+     margin-top: 45px;
+
+
+}
+#box2{
+
+    position: relative;
+    top: 50px;
+    left: 70px;
+}
+/* z index sẽ dùng cho các khối cùng postion ví dụ relative */
+#box3{
+   position: absolute;
+   top: 0px;
+   left: 100px;
+
+    width: 50px;
+    height: 30px;
+    margin: 0px;
+}
+
+.header{
+    
+
+width: 100%;
+    height: 40px;
+    background-color: darkblue;
+    color: white;
+    z-index: 20;
+}
+.menu{
+
+        position: sticky;
+        top: 0px;
+        left: 0px;
+        bottom: 100%;
+        background: pink;
+        z-index: 22;
+        height: 50px;
+
+}
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+
+width: 100%;
+    height: 40px;
+    background-color: green;
+    color: red;
+    z-index: 21;
+}
+/* postion có header (để top và left có giá trị)
+                footer ( để bottom và left có giá trị */

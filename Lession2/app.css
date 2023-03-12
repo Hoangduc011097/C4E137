@@ -1,0 +1,70 @@
+/* vieiet code css trong file này */
+
+/* độ ưu tiên trong css
+1. important
+2. inline style
+3. seclector ( các thẻ trc dấu ngoặc {}
+4.internal (các cặp thẻ style trong html
+5.external (file css) */ 
+
+
+/* viêt code css cho tất cả các thẻ h1 trên html */
+h1 {
+    color: red;
+}
+
+p{
+    color: green;
+}
+
+/* chọn thẻ nào mà có id specailHeading */
+/* # dùng cho id */
+/* đùng * cho tất cả mọi thứ trên trang web */
+*{
+    color: aqua;
+}
+#specialHeading{
+    color: blueviolet;
+}
+
+/*  . dùng cho class */
+.text-blue{
+    color: blue;
+}
+
+.div{
+    color: blueviolet;
+}
+/* dùng important để đc ưu tiên cao nhất ( phá vỡ độ ưu tiên trong css) */
+.text-brown{
+    color: brown !important;
+}
+#my-div{
+    color: pink;
+}
+
+/* Những thuộc tính - giá trị */
+#test-text{
+    color: rebeccapurple;
+    font-size: medium;
+    /* font-size: 10px; */
+    font-style: italic;
+    text-decoration: line-through; /* trnag trí cho chữ */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* kiểu font chữ */
+    text-transform: uppercase; /*biển kiểu chữ*/
+
+
+}
+/* Những thuộc tính - giá trị => định dạng khối nội dung (Box model) */
+ #my-box{
+
+    background-color: black;
+    width: 150px; /*độ rộng cả thẻ (có thể dùng pixel hoặc % ) */
+    height: 170px; /*độ cao của cả thẻ*/
+
+    border: 10px dashed green; /* bo đường viền, dashed nét đứt, solid viền đầy*/
+    border-radius: 10px; /*bo góc cạnh*/
+    padding: 20px; /*khảong cách từ lề vào*/
+
+    box-sizing: border-box; /* dùng để độ rộng khối k vượt quá border-box (width) */
+}
