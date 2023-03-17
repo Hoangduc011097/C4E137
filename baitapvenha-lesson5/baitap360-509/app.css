@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+
+}
+
+
+
+
+
+.menu-trai{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.menu-trai .social {
+    font-size: 25px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+
+
+.speaker{
+    font-size: 30px;
+   margin-left: 10px;
+   margin-bottom: 30px;
+}
+
+.card-1{
+    display: flex;
+    background-color: #FFD38A;
+    border-radius: 15px;
+    max-height: 20%;
+    height: 220px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    width: 380px;
+}
+.card-1 .card-1-trai{
+
+    background-color: #E2E2E2;
+    border-radius: 15px;
+    max-width: 60%;
+    width: 180px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+ .card-1 .card-1-trai .img-card{
+    border-radius: 15px;
+    width: 100%;
+    aspect-ratio: 1/1;
+   
+    max-width: 150px;
+    box-sizing: border-box;
+ }
+
+ .card-1 .card-1-trai .btn-contact{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+ }
+
+ .card-1 .card-1-trai .btn-contact .btn-item{
+    border-radius: 50%;
+    max-width: 40px;
+    width: 100%;
+    aspect-ratio: 1/1;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 5px;
+ }
+
+ .card-1 .card-1-phai{
+    padding: 10px;
+    max-width: 40%;
+
+    box-sizing: border-box;
+
+ }
+  
+ .card-1 .card-1-phai .infor{
+    aspect-ratio: 1/1;
+   
+   margin-bottom: 10px;
+   
+    
+ }
+
+ .card-1 .card-1-phai .btn-phai{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+     
+   
+ }
+ .card-1 .card-1-phai .btn-phai .btn-item-phai{
+    border-radius: 50%;
+    max-width: 40px;
+    width: 40%;
+    aspect-ratio: 1/1;
+    border: none;
+    font-size: 20px;
+     background-color: black;
+     color: white;
+
+
+
+ }
+
+ .card-list{
+    max-width: 100%;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+   
+ }
+
+ @media (min-width: 360px) and (max-width:509px) {
+
+    html{
+        width: 100%;
+        margin: 0px;
+    }
+    
+}
+    
+ 
+
+

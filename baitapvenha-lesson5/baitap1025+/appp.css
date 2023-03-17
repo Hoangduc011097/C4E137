@@ -1,0 +1,158 @@
+body{
+    margin: 0px;
+
+}
+
+.menu{
+ 
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 720px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+
+.img-header{
+    border-radius: 50%;
+    max-width: 80px;
+    width: 30%;
+    
+}
+
+.menu-trai{
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.menu-trai .social {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu-giua .search{
+    border-radius: 5px;
+    width: 60%;
+   
+}
+
+.menu .menu-phai{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.speaker{
+    font-size: 30px;
+   margin-left: 10px;
+   margin-bottom: 30px;
+}
+
+.card-1{
+    display: flex;
+    background-color: #FFD38A;
+    border-radius: 15px;
+    max-width: 340px;
+    max-height: 220px;
+}
+.card-1 .card-1-trai{
+
+    background-color: #E2E2E2;
+    border-radius: 15px;
+    max-width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+ .card-1 .card-1-trai .img-card{
+    border-radius: 15px;
+    width: 100%;
+    aspect-ratio: 1/1;
+    margin-bottom: 20px;
+
+ }
+
+ .card-1 .card-1-trai .btn-contact{
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .card-1 .card-1-trai .btn-contact .btn-item{
+    border-radius: 50%;
+    max-width: 30px;
+    width: 100%;
+    aspect-ratio: 1/1;
+    border: none;
+    font-size: 15px;
+ }
+
+ .card-1 .card-1-phai{
+    padding: 20px;
+    max-width: 40%;
+    box-sizing: border-box;
+
+ }
+  
+ .card-1 .card-1-phai .infor{
+    aspect-ratio: 1/1;
+   font-size: 10px;
+   margin-bottom: 15px;
+   
+    
+ }
+
+ .card-1 .card-1-phai .btn-phai{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+    width: 100%;
+   
+    
+   
+ }
+ .card-1 .card-1-phai .btn-phai .btn-item-phai{
+    border-radius: 50%;
+    max-width: 60px;
+    width: 50%;
+    aspect-ratio: 1/1;
+    border: none;
+    font-size: 15px;
+     background-color: black;
+     color: white;
+   
+
+
+
+ }
+
+ .card-list{
+    max-width: 65%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+   
+ }
+
+ @media (min-width:1025px) {
+
+    html{
+        width: 100%;
+        margin: 0px;
+    }
+    
+}
+    
+ 
+
+
